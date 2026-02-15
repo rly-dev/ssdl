@@ -1,6 +1,42 @@
 # 🎵 ssdl — Spotify Song Downloader
 
+> [!WARNING]
+> This tool is for **educational purposes only**. It downloads audio from YouTube, not Spotify source files.
+> Please respect the copyright laws in your jurisdiction and support the artists by streaming or purchasing their music.
+
 A CLI tool to download songs and playlists from Spotify. Built from scratch with zero runtime npm dependencies (except `node-id3` for ID3 tags).
+
+## TUI Preview
+
+The interface is built with a custom TUI engine for a seamless experience:
+
+```
+  ███████╗███████╗██████╗ ██╗     
+  ██╔════╝██╔════╝██╔══██╗██║     
+  ███████╗███████╗██║  ██║██║     
+  ╚════██║╚════██║██║  ██║██║     
+  ███████║███████║██████╔╝███████╗
+  ╚══════╝╚══════╝╚═════╝ ╚══════╝
+  Spotify Song Downloader          v1.0.0
+  ────────────────────────────────────
+
+  > Paste a Spotify URL (track/playlist/album)
+    Search for a song
+    Settings
+    Exit
+```
+
+**Live Download Progress:**
+
+```
+  Downloading 12 tracks...
+  ─────────────────────────────────────────────────────
+  · 01. Intro                         waiting
+  ~ 02. Track Title                   finding match...
+  > 03. Another Track
+         [████████░░░░] 65%  Downloading...
+  + 04. Already Done                  3.4 MB
+```
 
 ## How It Works
 
@@ -63,10 +99,6 @@ ssdl https://open.spotify.com/album/4aawyAB9vmqN3uQ7FjRGTy
 - 🏷️ Auto-embeds ID3 tags (title, artist, album, artwork)
 - ⚙️ Configurable download directory and settings
 - 🚀 Zero wrapper libraries — built from scratch with native Node.js APIs
-
-## Disclaimer
-
-This tool is for **personal use only**. Audio is sourced from YouTube, not Spotify. Respect copyright laws in your jurisdiction.
 
 ## License
 
