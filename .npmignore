@@ -1,0 +1,19 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore configuration and secrets
+.env
+config.json
+
+# Ignore development artifacts
+coverage/
+test/
+src/scratch/
+
+# Ignore local user settings (if any exist locally that shouldn't be packed)
+.ssdl/
