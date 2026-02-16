@@ -8,7 +8,7 @@ A CLI tool to download songs and playlists from Spotify. Built from scratch with
 
 ## TUI Preview
 
-The interface is built with a custom TUI engine for a seamless experience:
+The interface is built with a custom TUI engine for a seamless user experience:
 
 ```
   ███████╗███████╗██████╗ ██╗     
